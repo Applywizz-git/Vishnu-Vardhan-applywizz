@@ -202,12 +202,12 @@ export default function Header() {
                 </Link>
               </motion.div>
             ))}
-            {/* <ThemeToggle /> */}
+           <ThemeToggle /> 
           </nav>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center space-x-4">
-            {/* <ThemeToggle /> */}
+           <ThemeToggle />
             <motion.button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="p-2 rounded-lg backdrop-blur-md bg-white/10 border border-white/20"
